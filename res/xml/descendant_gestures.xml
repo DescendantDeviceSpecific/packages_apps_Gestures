@@ -44,5 +44,13 @@
         android:title="@string/three_finger_gesture" 
         android:summary="@string/three_finger_gesture_summary" 
         android:defaultValue="false" /> 
- 
+
+    <Preference
+        android:key="gesture_prevent_ringing_sound"
+        android:title="@string/gesture_prevent_ringing_sound_title"
+        android:icon="@drawable/ic_prevent_ring_gesture"
+        android:order="-110"
+        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
+        settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
+
 </PreferenceScreen>
