@@ -26,4 +26,7 @@
     <!-- AOSP gestures -->
     <string name="gesture_preference_descendant">AOSP gestures</string>
 
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
 </resources>
