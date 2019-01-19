@@ -30,20 +30,18 @@
         android:summary="@string/use_bottom_gesture_summary"
         android:defaultValue="false" />
 
-    <Preference
-        android:key="gesture_settings"
-        android:icon="@drawable/ic_settings_aospgestures"
-        android:title="@string/gesture_preference_descendant"
-        android:fragment="com.android.settings.gestures.GestureSettings"
-        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
-
-
     <org.descendant.support.preferences.SystemSettingSwitchPreference 
         android:key="three_finger_gesture" 
         android:icon="@drawable/ic_settings_screenshot"
         android:title="@string/three_finger_gesture" 
         android:summary="@string/three_finger_gesture_summary" 
         android:defaultValue="false" /> 
+
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:defaultValue="false" />
 
     <Preference
         android:key="gesture_prevent_ringing_sound"
@@ -53,12 +51,12 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
 
-    <org.descendant.support.preferences.SystemSettingSwitchPreference
-        android:key="volume_button_music_control"
-        android:title="@string/volume_button_music_control_title"
-        android:summary="@string/volume_button_music_control_summary"
-        android:defaultValue="false" />
-
+    <Preference
+        android:key="gesture_settings"
+        android:icon="@drawable/ic_settings_aospgestures"
+        android:title="@string/gesture_preference_descendant"
+        android:fragment="com.android.settings.gestures.GestureSettings"
+        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <Preference
         android:key="pulse_settings"
