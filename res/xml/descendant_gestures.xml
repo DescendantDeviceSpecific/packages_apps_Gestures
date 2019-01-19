@@ -59,4 +59,12 @@
         android:summary="@string/volume_button_music_control_summary"
         android:defaultValue="false" />
 
+
+    <Preference
+        android:key="pulse_settings"
+        android:title="@string/pulse_settings"
+        android:icon="@drawable/ic_pulse"
+        android:summary="@string/pulse_settings_summary"
+        android:fragment="org.descendant.gestures.PulseSettings" />
+        
 </PreferenceScreen>
