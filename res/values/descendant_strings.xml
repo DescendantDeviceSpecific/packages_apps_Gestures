@@ -75,4 +75,7 @@
     <!-- D2TS on lockscreen -->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string> 
 
+    <!-- Swap volume buttons -->
+    <string name="swap_volume_buttons">Swap volume buttons based on rotation</string>
+
 </resources>
