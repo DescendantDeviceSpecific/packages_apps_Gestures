@@ -65,5 +65,11 @@
         android:icon="@drawable/ic_pulse"
         android:summary="@string/pulse_settings_summary"
         android:fragment="org.descendant.gestures.PulseSettings" />
+
+    <Preference
+        android:key="descendant_notification_drawer_settings"
+        android:icon="@drawable/ic_notification_drawer_settings"
+        android:fragment="org.descendant.gestures.NotificationDrawerSettings"
+        android:title="@string/notification_drawer_settings_title"/>
         
 </PreferenceScreen>
