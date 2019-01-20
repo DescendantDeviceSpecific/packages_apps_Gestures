@@ -17,11 +17,11 @@
     
     <!-- OP Gestures -->
     <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
-    <string name="use_bottom_gesture_summary">Works only with navigation bar disable</string>
+    <string name="use_bottom_gesture_summary">Works only with navigation bar disabled</string>
 
     <!-- Three fingers swipe to screen -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take a screenshot</string>
 
     <!-- AOSP gestures -->
     <string name="gesture_preference_descendant">AOSP gestures</string>
