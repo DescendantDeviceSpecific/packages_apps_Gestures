@@ -60,9 +60,14 @@
         android:key="gesture_prevent_ringing_sound"
         android:title="@string/gesture_prevent_ringing_sound_title"
         android:icon="@drawable/ic_prevent_ring_gesture"
-        android:order="-110"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
+
+    <Preference
+        android:key="descendant_notification_drawer_settings"
+        android:icon="@drawable/ic_notification_drawer_settings"
+        android:fragment="org.descendant.gestures.NotificationDrawerSettings"
+        android:title="@string/notification_drawer_settings_title"/>
 
     <Preference
         android:key="gesture_settings"
@@ -70,18 +75,5 @@
         android:title="@string/gesture_preference_descendant"
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
-
-    <Preference
-        android:key="pulse_settings"
-        android:title="@string/pulse_settings"
-        android:icon="@drawable/ic_pulse"
-        android:summary="@string/pulse_settings_summary"
-        android:fragment="org.descendant.gestures.PulseSettings" />
-
-    <Preference
-        android:key="descendant_notification_drawer_settings"
-        android:icon="@drawable/ic_notification_drawer_settings"
-        android:fragment="org.descendant.gestures.NotificationDrawerSettings"
-        android:title="@string/notification_drawer_settings_title"/>
-        
+                                                    
 </PreferenceScreen>
