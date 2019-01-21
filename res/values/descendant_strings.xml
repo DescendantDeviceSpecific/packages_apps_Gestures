@@ -13,7 +13,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Gesture title -->
-    <string name="gestures_title">Gestures</string>    
+    <string name="gestures_title">Gestures and buttons</string>    
     
     <!-- OP Gestures -->
     <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
