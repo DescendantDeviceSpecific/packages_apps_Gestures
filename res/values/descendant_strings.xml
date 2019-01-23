@@ -12,6 +12,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Gesture -->
+    <string name="nav_gestures">Navigation gestures</string>
+    <string name="util_gestures">Extra gestures</string>
+    <string name="buttons">Buttons options</string>
+    <string name="misc_gestures">Miscellaneous gestures</string>
+
     <!-- Gesture title -->
     <string name="gestures_title">Gestures and buttons</string>    
     

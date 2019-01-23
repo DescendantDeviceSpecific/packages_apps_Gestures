@@ -16,12 +16,11 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <org.descendant.support.preferences.SystemSettingSwitchPreference 
-        android:key="navigation_bar_show"
-        android:title="@string/enable_navigation_bar_title"
-        android:icon="@drawable/ic_settings_enable"
-        android:summary="@string/enable_navigation_bar_summary"
-        android:defaultValue="true" />
+    <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/nav_gestures"
+        android:key="descendant_nav_gestures">
 
     <org.descendant.support.preferences.SystemSettingSwitchPreference
         android:key="use_bottom_gesture_navigation"
@@ -31,11 +30,40 @@
         android:defaultValue="false" />
 
     <org.descendant.support.preferences.SystemSettingSwitchPreference 
+        android:key="navigation_bar_show"
+        android:title="@string/enable_navigation_bar_title"
+        android:icon="@drawable/ic_settings_enable"
+        android:summary="@string/enable_navigation_bar_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory> 
+
+    <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/util_gestures"
+        android:key="descendant_util_gestures">
+
+    <org.descendant.support.preferences.SystemSettingSwitchPreference 
         android:key="three_finger_gesture" 
         android:icon="@drawable/ic_settings_screenshot"
         android:title="@string/three_finger_gesture" 
         android:summary="@string/three_finger_gesture_summary" 
         android:defaultValue="false" /> 
+
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:icon="@drawable/ic_double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_sleep_lockscreen"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/buttons"
+        android:key="descendant_buttons">
 
     <org.descendant.support.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
@@ -50,18 +78,20 @@
         android:title="@string/swap_volume_buttons"
         android:defaultValue="true" />
 
-    <org.descendant.support.preferences.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_lockscreen"
-        android:icon="@drawable/ic_double_tap_sleep_lockscreen"
-        android:title="@string/double_tap_sleep_lockscreen"
-        android:defaultValue="true" />
-
     <Preference
         android:key="gesture_prevent_ringing_sound"
         android:title="@string/gesture_prevent_ringing_sound_title"
         android:icon="@drawable/ic_prevent_ring_gesture"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
+
+    </PreferenceCategory> 
+
+    <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/misc_gestures"
+        android:key="descendant_misc_gestures">
 
     <Preference
         android:key="descendant_notification_drawer_settings"
@@ -75,5 +105,7 @@
         android:title="@string/gesture_preference_descendant"
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
-                                                    
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
