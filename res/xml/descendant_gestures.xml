@@ -85,6 +85,12 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingPreferenceController" />
 
+    <Preference
+        android:key="audio_panel"
+        android:fragment="org.descendant.gestures.AudioPanel"
+        android:title="@string/advanced_volume_panel_title"
+        android:summary="@string/advanced_volume_panel_summary" />
+
     </PreferenceCategory> 
 
     <PreferenceCategory
