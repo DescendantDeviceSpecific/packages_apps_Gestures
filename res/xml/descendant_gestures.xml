@@ -87,7 +87,7 @@
 
     <Preference
         android:key="audio_panel"
-        android:icon="@drawable/ic_extend.xml"
+        android:icon="@drawable/ic_extend"
         android:fragment="org.descendant.gestures.AudioPanel"
         android:title="@string/advanced_volume_panel_title"
         android:summary="@string/advanced_volume_panel_summary" />
