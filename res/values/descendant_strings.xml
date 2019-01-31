@@ -15,7 +15,7 @@
     <!-- Gesture -->
     <string name="nav_gestures">Navigation gestures</string>
     <string name="util_gestures">Extra gestures</string>
-    <string name="buttons">Buttons options</string>
+    <string name="buttons">Volume buttons options</string>
     <string name="misc_gestures">Miscellaneous gestures</string>
 
     <!-- Gesture title -->
