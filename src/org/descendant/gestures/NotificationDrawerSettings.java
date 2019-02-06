@@ -36,7 +36,7 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         addPreferencesFromResource(R.xml.descendant_notification_drawer_settings);
 
         int qpmode = Settings.System.getIntForUser(getContentResolver(),
-                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1, UserHandle.USER_CURRENT);
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
         mQuickPulldown = (ListPreference) findPreference("status_bar_quick_qs_pulldown");
         mQuickPulldown.setValue(String.valueOf(qpmode));
         mQuickPulldown.setOnPreferenceChangeListener(this);
