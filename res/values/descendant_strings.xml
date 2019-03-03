@@ -109,4 +109,7 @@
     <string name="audio_panel_view_voice_title">Voice</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
 
+    <!-- Thumb UI -->
+    <string name="thumb_ui_title">Thumb UI</string>
+    <string name="thumb_ui_summary">This toggle will enable Thumb UI. \nAn interface that will suit your usage with one hand."</string>
 </resources>

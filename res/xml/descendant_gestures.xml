@@ -23,6 +23,13 @@
         android:key="descendant_nav_gestures">
 
     <org.descendant.support.preferences.SystemSettingSwitchPreference
+        android:key="thumb_ui"
+        android:title="@string/thumb_ui_title"
+        android:icon="@drawable/ic_thumb_ui"
+        android:summary="@string/thumb_ui_summary"
+        android:defaultValue="false" />
+
+    <org.descendant.support.preferences.SystemSettingSwitchPreference
         android:key="use_bottom_gesture_navigation"
         android:title="@string/use_bottom_gesture_title"
         android:icon="@drawable/ic_settings_op"
