@@ -111,5 +111,5 @@
 
     <!-- Thumb UI -->
     <string name="thumb_ui_title">Thumb UI</string>
-    <string name="thumb_ui_summary">This toggle will enable Thumb UI. \nAn interface that will suit your usage with one hand."</string>
+    <string name="thumb_ui_summary">An interface that will suit one handed use.\nDISCLAIMER: This feature is in beta."</string>
 </resources>
