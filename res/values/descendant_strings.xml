@@ -98,7 +98,7 @@
     <string name="thumb_ui_title">Thumb UI</string>
     <string name="thumb_ui_summary">An interface that will suit one handed use.\nDISCLAIMER: This feature is in beta."</string>
 
-     <!-- MultiTouch Gestures -->
+    <!-- MultiTouch Gestures -->
     <string name="multi_touch_gesture_preference_title">MultiTouch Gestures</string>
     <string name="multi_touch_gestures_summary">Configure custom global gestures</string>
     <string name="multi_touch_gestures_fingers_title">Number of ingers used for gesture</string>
@@ -120,4 +120,10 @@
     <string name="multi_touch_gesture_media_previous">Previous media</string>
     <string name="multi_touch_gesture_customapp">Launch application</string>
     <string name="multi_touch_gesture_launch">Launch</string>
+
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
+    <string name="hide_apps_from_recents_summary">Prevent apps from appearing in recents</string>
+    <string name="hide_from_recents_add_app">Add app</string>
+    <string name="title_activity_carbon_recents_settings">Recents</string>
 </resources>

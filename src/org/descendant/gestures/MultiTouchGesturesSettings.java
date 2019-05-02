@@ -37,9 +37,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-import org.descendant.support.preference.CustomSeekBarPreference;
-import org.descendant.support.fragments.hideappfromrecents.HAFRAppChooserAdapter.AppItem;
-import org.descendant.support.fragments.hideappfromrecents.HAFRAppChooserDialog;
+import org.descendant.support.preferences.CustomSeekBarPreference;
+import org.descendant.gestures.extras.hideappfromrecents.HAFRAppChooserAdapter.AppItem;
+import org.descendant.gestures.extras.hideappfromrecents.HAFRAppChooserDialog;
 
 public class MultiTouchGesturesSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
