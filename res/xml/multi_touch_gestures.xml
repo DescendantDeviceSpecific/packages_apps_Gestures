@@ -16,7 +16,7 @@
      android:title="@string/multi_touch_gesture_preference_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <org.descendant.support.preference.CustomSeekBarPreference
+    <org.descendant.support.preferences.CustomSeekBarPreference
         android:key="multi_touch_gestures_fingers"
         android:title="@string/multi_touch_gestures_fingers_title"
         android:max="4"
