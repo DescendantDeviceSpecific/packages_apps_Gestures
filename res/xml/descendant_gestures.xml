@@ -59,6 +59,7 @@
 
     <Preference
         android:key="MultiTouchGestures"
+        android:icon="@drawable/ic_multitouch"
         android:title="@string/multi_touch_gesture_preference_title"
         android:summary="@string/multi_touch_gestures_summary"
         android:fragment="org.descendant.gestures.MultiTouchGesturesSettings" />
