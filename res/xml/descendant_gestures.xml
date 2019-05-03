@@ -51,13 +51,6 @@
         android:title="@string/util_gestures"
         android:key="descendant_util_gestures">
 
-    <org.descendant.support.preferences.SystemSettingSwitchPreference 
-        android:key="three_finger_gesture" 
-        android:icon="@drawable/ic_settings_screenshot"
-        android:title="@string/three_finger_gesture" 
-        android:summary="@string/three_finger_gesture_summary" 
-        android:defaultValue="false" /> 
-
     <org.descendant.support.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_lockscreen"
         android:icon="@drawable/ic_double_tap_sleep_lockscreen"
